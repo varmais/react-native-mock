@@ -23,6 +23,12 @@
   ],
   "author": "Jake Howard <git@theorangeone.net>",
   "license": "MIT",
+  "babel": {
+    "presets": [
+      "airbnb",
+      "react-native"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/RealOrangeOne/react-native-mock/issues"
   },
