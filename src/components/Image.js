@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 /**
  * https://github.com/facebook/react-native/blob/master/Libraries/Image/Image.ios.js
  */
@@ -7,8 +8,6 @@ import NativeMethodsMixin from '../mixins/NativeMethodsMixin';
 import EdgeInsetsPropType from '../propTypes/EdgeInsetsPropType';
 import ImageStylePropTypes from '../propTypes/ImageStylePropTypes';
 import ImageResizeMode from '../propTypes/ImageResizeMode';
-
-const { PropTypes } = React;
 
 const Image = React.createClass({
   propTypes: {
